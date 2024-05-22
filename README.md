@@ -23,9 +23,9 @@ create table Users (
 - You need insert in the folder `./data` a file with the name `keys.js`. Here you put the next code:
 ```
 export const keys = {
-  SUPABASE_KEY: <YOUR KEY>,
-  SUPABASE_URL_MOVIES: <YOUR URL MOVIES>,
-  SUPABASE_URL_USERS: <YOUR URL USERS>
+  SUPABASE_KEY: "<YOUR KEY>",
+  SUPABASE_URL_MOVIES: "<YOUR URL MOVIES>",
+  SUPABASE_URL_USERS: "<YOUR URL USERS>"
 }
 ```
 

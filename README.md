@@ -5,6 +5,7 @@
 - You must insert this code in sql of supabase.
 ```
 create table Movies (
+  id SERIAL PRIMARY KEY,
   title text,
   year int8,
   director text,
